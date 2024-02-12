@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    color: #fff;
+}
+
+#logo{
+    width: Hug (111px);
+    height: Hug (30px);
+    gap: 50px;
+    padding: 40px;
+}
+
+.content {
+    max-width: 1200px; 
+    margin: 0 auto;
+    margin-top: 5%; 
+}  
+
+.content h1{
+    font-family: Netflix Sans;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 50px; 
+    cursor: pointer;
+}
+
+.images div {
+    text-align: center;
+}
+
+.images h2{
+    padding-top: 20px;
+    color: #6D6D6EB2;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 10px 20px;
+    color: #808080;
+    background: transparent;
+    border: 1px solid #808080;
+    margin-left: 450px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/* Media Queries for max-width: 480px */
+@media (max-width: 480px) {
+
+    #logo{
+        margin-left: 50px;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .images {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+        gap: 20px; 
+    }
+
+    button {
+        padding: 8px 16px;
+        margin-left: 50px;
+    }
+}
+
+/* Media Queries */
+@media (min-width: 481px) and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        margin-top: 20px;
+    }
+
+    .images {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+        gap: 60px; 
+        padding: 0 10px;
+    }
+
+    button {
+        padding: 8px 16px;
+        margin-left: 30px;
+    }
+
+    .images {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+        gap: 10px; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        padding: 15px;
+    }
+
+    .images {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 15px; 
+        padding: 0 10px;
+    }
+
+    button {
+        padding: 8px 16px;
+        margin-left: 250px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .header {
+        padding: 25px;
+    }
+
+    .images {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+        gap: 25px; 
+    }
+
+    button {
+        padding: 15px 30px;
+    }
+}
+

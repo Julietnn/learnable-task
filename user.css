@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+body{
+    background-color: black;
+}
+main{
+    width:100% ;
+    height:200vh ;
+}
+header{
+    width: 100%;
+    background-color:#141414;
+    height:82px;
+
+
+    
+}
+nav{
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+padding-top: 6px;
+
+}
+
+.leftnav,
+.rightnav {
+    display: flex;
+    align-items: center;
+}
+.leftnav{
+    padding-left: 50px;
+    
+}
+
+.leftnav .logo{
+    margin-right: 45px;
+    padding: 10px;
+}
+.leftnav img{
+    width: 111px;
+    height: 30px;
+    margin-top: 15px;
+}
+.leftnav .textnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.leftnav .textnav p{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: white;
+}
+.rightnav{
+    position: relative;
+    left: 50%;
+    gap: 20px;
+    color: white;
+    
+}
+.section1{
+    background-image:url(./section1\ backg\ pic.png);
+    width: 100%;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+.section1-general{
+    position: relative;
+    top:34% ;
+    left: 30px;
+    padding:20px;
+    
+}
+.kal-yanimda{
+    width: 408px;
+    height: 115px;
+}
+
+.section1-general p{
+    margin-top: 20px;
+}
+.number-1{
+
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px; 
+    color: white;
+    
+}
+.description{
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 33px;
+    color: white; 
+}
+.play-button{
+    width: Hug (175px);
+    height: Hug (62px);
+    padding: 15px, 30px, 15px, 30px;
+    border-radius: 4px;
+    gap: 20px;
+    padding: 5.30px, 4px, 5.33px, 8px;
+    margin-top: 20px;
+}
+.MoreInfoButton.png{
+    width: Hug (276px);
+    height: Hug (62px);
+    padding: 15px, 30px, 15px, 30px;
+    border-radius: 4px;
+    gap: 20px
+
+}
+.section1Text{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+
+
+}
+.movieImages{
+   display:flex ; 
+   
+}
+.movieImages img{
+    flex: 0 0 auto;
+    margin-left: 4px;
+}
+.movieImages img:last-child{
+    margin-right: 0;
+}
+
+.section2{
+    width: 100%;
+    background-color: #141414;
+    
+}
+.section2-general{
+    position: relative;
+    top:34% ;
+    left: 30px;
+    padding:20px;
+    
+}
+.section3{
+    width: 100%;
+    background-color: #141414;
+
+}
+.section3-general{
+    position: relative;
+    left: 30px;
+    padding: 20px;
+}
+  
+.section4{
+    width: 100%;
+    background-color: #141414;
+}
+.section4-general{
+    position: relative;
+    left: 30px;
+    padding: 20px;
+    
+}
+.sectionfive{
+    width: 100%;
+    background-color: #141414;
+}
+.sectionfive-general{
+    position: relative;
+    left: auto;
+    padding: 20px;
+    
+}
+.sectionfive-general img{
+    width: 264px;
+}
+.sectionsix{
+    width: 100%;
+    background-color: #141414;
+    
+}
+.sectionsix-general{
+    position: relative;
+    left: -30px;
+    padding: 20px;
+}
+
+.section-7{
+    width: 100%;
+    background-color: #141414;
+}
+.section7-general{
+    position: relative;
+    left: 30px;
+    padding: 20px;
+
+}
+footer{
+    width: 100%;
+    padding: 50px 17%;
+    color: white;
+   background-color: #141414;
+}
+.parentfooter{
+    display: flex;
+    justify-content: space-between;
+
+}
+.others{
+    
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #757575;
+
+}
+.parentfooter ul{
+    margin: 0;
+    padding: 0;
+}
+.parentfooter ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.parentfooter ul li a{
+    
+        text-decoration: none;
+        color: inherit;
+        cursor: default;
+}
+.footer-logo{
+    width: 124px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #333333 ;
+    padding: 10px;
+    color: #999999 ;
+    margin-top: 20px;
+}
+.India{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #757575;
+    
+}
